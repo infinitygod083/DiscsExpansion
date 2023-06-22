@@ -7,6 +7,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class ModSounds {
+    public static SoundEvent MASK = registerSoundEvent("dream_mask");
     public static SoundEvent TRANCE_MUSIC_FOR_RACING_GAME = registerSoundEvent("bobby_cole_trance_music_for_racing_game");
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(DiscsExpansion.MOD_ID, name);
