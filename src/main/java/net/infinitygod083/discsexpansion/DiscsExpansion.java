@@ -2,6 +2,9 @@ package net.infinitygod083.discsexpansion;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.infinitygod083.discsexpansion.item.ModItemGroup;
+import net.infinitygod083.discsexpansion.item.ModItems;
+import net.infinitygod083.discsexpansion.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,7 @@ public class DiscsExpansion implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroup.registerItemGroups();
 	}
 }

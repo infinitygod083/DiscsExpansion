@@ -1,0 +1,10 @@
+{
+  "bobby_cole_trance_music_for_racing_game": {
+    "sounds": [
+      {
+        "name": "discsexpansion:bobby_cole_trance_music_for_racing_game",
+        "stream": true
+      }
+    ]
+  }
+}
