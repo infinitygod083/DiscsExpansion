@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "discsexpansion",
+	"version": "${version}",
+	"name": "Discs Expansion",
+	"description": "A mod about expanded discs by InfinityGod083. Enjoy!",
+	"authors": [
+		"InfinityGod083"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/66293932",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/discsexpansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.infinitygod083.discsexpansion.DiscsExpansion"
+		],
+		"Client": [
+			"net.infinitygod083.discsexpansion.DiscsExpansionClient"
+		],
+		"fabric-datagen": [
+			"net.infinitygod083.discsexpansion.DiscsExpansionDataGenerator"
+		]
+	},
+	"mixins": [
+		"discsexpansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
