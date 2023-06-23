@@ -12,18 +12,26 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static ItemGroup MCYT_MUSIC_DISC = Registry.register(Registries.ITEM_GROUP, new Identifier(DiscsExpansion.MOD_ID, "mcyt_music_disc"),
+    public static ItemGroup CLASSIC_ANIMATION_MUSIC_DISCS = Registry.register(Registries.ITEM_GROUP, new Identifier(DiscsExpansion.MOD_ID, "classic_animation_music_discs"),
             FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemgroup.mcyt_music_disc"))
-                    .icon(() -> new ItemStack(ModItems.MUSIC_DISC_MASK)).entries((displayContext, entries) -> {
+                    .displayName(Text.translatable("itemgroup.classic_animation_music_discs"))
+                    .icon(() -> new ItemStack(ModItems.MUSIC_DISC_EVEN_THOUGH_IM_JUST_A_LITTLE_GOAT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.MUSIC_DISC_EVEN_THOUGH_IM_JUST_A_LITTLE_GOAT);
+                    }).build());
+    public static ItemGroup MCYT_MUSIC_DISCS = Registry.register(Registries.ITEM_GROUP, new Identifier(DiscsExpansion.MOD_ID, "mcyt_music_discs"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.mcyt_music_discs"))
+                    .icon(() -> new ItemStack(ModItems.MUSIC_DISC_UNTIL_I_END_UP_DEAD)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MUSIC_DISC_MASK);
                         entries.add(ModItems.MUSIC_DISC_TRANCE_MUSIC_FOR_RACING_GAME);
+                        entries.add(ModItems.MUSIC_DISC_UNTIL_I_END_UP_DEAD);
                     }).build());
-
     public static void registerItemGroups() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
+            entries.add(ModItems.MUSIC_DISC_EVEN_THOUGH_IM_JUST_A_LITTLE_GOAT);
             entries.add(ModItems.MUSIC_DISC_MASK);
             entries.add(ModItems.MUSIC_DISC_TRANCE_MUSIC_FOR_RACING_GAME);
+            entries.add(ModItems.MUSIC_DISC_UNTIL_I_END_UP_DEAD);
         });
     }
 }

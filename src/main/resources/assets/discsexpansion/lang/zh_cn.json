@@ -1,8 +1,13 @@
 {
+  "item.discsexpansion.music_disc_even_though_im_just_a_little_goat": "§b音乐唱片",
+  "item.discsexpansion.music_disc_even_though_im_just_a_little_goat.desc": "古倩敏 - 别看我只是一只羊",
   "item.discsexpansion.music_disc_mask": "§b音乐唱片",
   "item.discsexpansion.music_disc_mask.desc": "Dream - Mask",
   "item.discsexpansion.music_disc_trance_music_for_racing_game": "§b音乐唱片",
   "item.discsexpansion.music_disc_trance_music_for_racing_game.desc": "Bobby Cole - Trance Music for Racing Game",
+  "item.discsexpansion.music_disc_until_i_end_up_dead": "§b音乐唱片",
+  "item.discsexpansion.music_disc_until_i_end_up_dead.desc": "Dream - Until I End Up Dead",
 
-  "itemgroup.mcyt_music_disc": "MCYT音乐唱片"
+  "itemgroup.mcyt_music_discs": "MCYT音乐唱片",
+  "itemgroup.classic_animation_music_discs": "经典动画片音乐唱片"
 }

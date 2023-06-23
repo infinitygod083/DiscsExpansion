@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "discsexpansion:item/music_disc_until_i_end_up_dead"
+  }
+}

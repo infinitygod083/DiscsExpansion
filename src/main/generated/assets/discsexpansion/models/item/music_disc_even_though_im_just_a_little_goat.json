@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "discsexpansion:item/music_disc_even_though_im_just_a_little_goat"
+  }
+}

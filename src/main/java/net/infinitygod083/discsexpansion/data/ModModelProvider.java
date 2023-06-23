@@ -20,7 +20,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.MUSIC_DISC_EVEN_THOUGH_IM_JUST_A_LITTLE_GOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_MASK, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSIC_DISC_TRANCE_MUSIC_FOR_RACING_GAME, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSIC_DISC_UNTIL_I_END_UP_DEAD, Models.GENERATED);
     }
 }

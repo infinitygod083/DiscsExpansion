@@ -1,8 +1,8 @@
 {
-  "bobby_cole_trance_music_for_racing_game": {
+  "qianmin_gu_even_though_im_just_a_little_goat": {
     "sounds": [
       {
-        "name": "discsexpansion:bobby_cole_trance_music_for_racing_game",
+        "name": "discsexpansion:qianmin_gu_even_though_im_just_a_little_goat",
         "stream": true
       }
     ]
@@ -11,6 +11,22 @@
     "sounds": [
       {
         "name": "discsexpansion:dream_mask",
+        "stream": true
+      }
+    ]
+  },
+  "bobby_cole_trance_music_for_racing_game": {
+    "sounds": [
+      {
+        "name": "discsexpansion:bobby_cole_trance_music_for_racing_game",
+        "stream": true
+      }
+    ]
+  },
+  "dream_until_i_end_up_dead": {
+    "sounds": [
+      {
+        "name": "discsexpansion:dream_until_i_end_up_dead",
         "stream": true
       }
     ]
